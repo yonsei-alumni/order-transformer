@@ -28,7 +28,7 @@ func (t *largeTheme) Size(name fyne.ThemeSizeName) float32 {
 func main() {
 	a := app.NewWithID("com.github.benelog.order-transformer")
 	a.Settings().SetTheme(&largeTheme{Theme: theme.DefaultTheme()})
-	w := a.NewWindow("주문 정보 변환기")
+	w := a.NewWindow("주문 엑셀 파일 변환기")
 	w.Resize(fyne.NewSize(700, 500))
 
 	transformTab := buildTransformTab(w)
