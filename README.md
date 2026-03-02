@@ -24,17 +24,9 @@
 - 상품 종류별 수량
 - 수령인 정보 누락 여부 (이름, 전화번호, 주소, 우편번호)
 
-## 실행
+## 다운로드
 
-### 사전 준비
-- [Go 1.24+](https://golang.org/dl/) 설치
+[최신 릴리즈](https://github.com/yonsei-alumni/order-transformer/releases/latest)에서 OS에 맞는 실행 파일을 다운로드하여 실행합니다.
 
-### 소스에서 실행
-```bash
-go run .
-```
-
-### 빌드된 파일 실행
-`dist/` 폴더에서 OS에 맞는 실행 파일을 다운로드하여 실행합니다.
-- Linux: `order-transformer-linux-amd64`
 - Windows: `order-transformer-windows-amd64.exe`
+- Linux: `order-transformer-linux-amd64`
